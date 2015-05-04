@@ -20,7 +20,7 @@ var background = new Audio('Background.mid')
 
 /*****FROGGER*****/
 var frogger = new Image ();
-frogger.src = "frogger.png";
+frogger.src = "https://cloud.githubusercontent.com/assets/12228931/7449239/64201750-f1e6-11e4-8f59-95aa76d3ef2e.png";
 
 /*****CAR ROW 1*****/
 var x1 = new Array();
@@ -28,7 +28,7 @@ var cars1 = new Array();
 for(i=0; i<5; i++)
 {
 	cars1[i] = new Image();
-	cars1[i].src = "carEditleft.png";
+	cars1[i].src = "https://cloud.githubusercontent.com/assets/12228931/7449238/641b713c-f1e6-11e4-96e2-b2107bd49f54.png";
 	x1[i] = 50 + (135*i)
 }
 
@@ -38,7 +38,7 @@ var cars2 = new Array();
 for(j=0; j<5; j++)
 {
 	cars2[j] = new Image();
-	cars2[j].src = "carEdit.png";
+	cars2[j].src = "https://cloud.githubusercontent.com/assets/12228931/7449237/64161a52-f1e6-11e4-99bc-3c679a9a11fe.png";
 	x2[j] = 50 + (135*j)
 }
 
@@ -48,7 +48,7 @@ var cars3 = new Array();
 for(j=0; j<5; j++)
 {
 	cars3[j] = new Image();
-	cars3[j].src = "carEditleft.png";
+	cars3[j].src = "https://cloud.githubusercontent.com/assets/12228931/7449238/641b713c-f1e6-11e4-96e2-b2107bd49f54.png";
 	x3[j] = 50 + (135*j)
 }
 
@@ -58,7 +58,7 @@ var cars4 = new Array();
 for(j=0; j<5; j++)
 {
 	cars4[j] = new Image();
-	cars4[j].src = "carEdit.png";
+	cars4[j].src = "https://cloud.githubusercontent.com/assets/12228931/7449237/64161a52-f1e6-11e4-99bc-3c679a9a11fe.png";
 	x4[j] = 50 + (135*j)
 }
 
